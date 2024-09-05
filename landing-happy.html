@@ -1,0 +1,762 @@
+<!--
+    templateType: page
+    isAvailableForNewContent: true
+label: Hubspot Landing Outsource
+-->
+<!doctype html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ content.html_title }}</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./landing-happy.css">
+     <script src="https://cdn.tailwindcss.com"></script>
+   <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+    scroll-behavior: smooth;
+    }
+.container {
+  max-width:1100px !important;
+  padding: 0 .5rem;
+    }
+    .hs_business_or_agency.hs-business_or_agency.hs-fieldtype-radio.field.hs-form-field {
+     margin-top: 18px !important; 
+    }
+  </style>
+    <meta name="description" content="{{ content.meta_description }}">
+  </head>
+  <body>
+    <div class="home-bg">
+        <div id="started" class="container m-auto py-12">
+          <div class="navigation flex justify-center md:justify-between items-center mb-6 lg:mb-12">
+            <div class="happy-logo">
+              <img src="./happylogo.svg" alt="Happy Agencies logo" />
+            </div>
+            <div class="anchor-menu hidden md:block">
+              <ul class=" flex md:gap-6 lg:gap-20">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#fulfi">Fulfillment</a></li>
+                <li><a href="#resources">Dedicated Resources</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="grid md:grid-cols-2 text-center md:text-left cta-1-mobile">
+            <div class="mb-24 md:mb-0">
+              <div class="mb-3 hidden lg:block">
+                <div class="price">
+                  <p>$30 - $40/hr</p> <!-- Example price range -->
+                </div>
+              </div>
+              <div class="mb-2">
+                <div class="title text-4xl lg:text-5xl">
+                  Do you need to Outsource <span class="happy-hubspot-span">HubSpot</span> Tasks?
+                </div>
+              </div>
+              <div class="desc mb-3">
+                <p>
+                 Whether you are new to HubSpot or you are a Partner who needs a helping hande, you can outsource all your tasks to a dedicated team.
+              </div>
+              <div class="mb-3 lg:hidden">
+                <div class="price m-auto">
+                  <p>$100 - $500</p> <!-- Example price range -->
+                </div>
+              </div>
+              <div class="hubspot-partner lg:mb-10">
+                <img src="./hubspot-gold-horizontal-color.png" alt="HubSpot Partner Logo" width="200" height="100" />
+              </div>
+            </div>
+            <div class="form-container">
+                <h2 class="form-title">Let's Talk</h2>
+                <p class="form-subtitle">Book a call and find out if we are a good fit</p>
+                
+                <form>
+                  <label for="name">Name*</label>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required>
+                  
+                  <label for="email">Email*</label>
+                  <input type="email" id="email" name="email" placeholder="john@hubspot.com" required>
+                  
+                  <label for="phone-number">Phone number*</label>
+                  <div class="phone-number">
+                    <select id="country-code">
+                      <option value="arg">Argentina</option>
+                      <!-- Otras opciones de países -->
+                    </select>
+                    <input type="text" id="phone-number" name="phone-number" placeholder="+54" required>
+                  </div>
+                  
+                  <label for="business-type">Are you a Business or an Agency?*</label>
+                  <div class="business-type">
+                    <input type="radio" id="business" name="business-type" value="business" required>
+                    <label for="business">Business</label>
+                    <input class="input-form" type="radio" id="agency" name="business-type" value="agency" required>
+                    <label for="agency">Agency</label>
+                  </div>
+                  
+                  <button class="form-button" type="submit">Get Started</button>
+                </form>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+      
+      <div class="container m-auto">
+        <div class="services-container m-auto">
+          
+          <!-- Repetir esta estructura 6 veces para las 6 secciones -->
+      
+          <div class="service grid md:grid-cols-2 mb-12 lg:mb-28 gap-4 odd" id="gridServices">
+            
+            <!-- Contenedor de texto -->
+            <div class="service-text-container mb-8 lg:mb-0">
+              <div>
+                <h3 class="mb-2 flex">
+                  <!-- SVG ICON -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 118 116" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M63.4669 0.525906C81.8309 0.0559203 101.154 5.94649 111.681 21.0012C121.657 35.2698 116.715 53.7493 112.493 70.6402C108.426 86.909 103.906 104.776 88.8793 112.22C73.7176 119.731 56.4911 112.915 41.0293 106.042C24.7027 98.7859 6.55987 90.7469 1.81293 73.5225C-3.10274 55.6858 6.31323 37.527 18.2515 23.3924C29.7173 9.81716 45.7033 0.980524 63.4669 0.525906Z" fill="#FF7A59"/>
+                  </svg>
+                 CRM
+                </h3>
+              </div>
+      
+              <div>
+                <ul class="grid grid-cols-2 gap-2">
+                  <li>Onboarding & Setup</li>
+                  <li>Custom Fields</li>
+                  <li>Integrations</li>
+                  <li>Dashboard Setup</li>
+                  <li>List Creation</li>
+                  <li>Data Import & Cleansing</li>
+                  <li>Live Chat and Chatbot Training</li>
+                  <li> Add Communication Channels</li>
+                </ul>
+              </div>
+      
+              <!-- Botón Get Started -->
+              <a href="#" class="mt-8 btn-get-started">Get Started</a>
+            </div>
+            
+            <!-- Contenedor de imagen -->
+            <div class="services-image">
+              <img src="./service1.jpg" alt="Placeholder Image for service {{ i }}" style="max-width: 100%; height: auto;">
+            </div>
+      
+          </div>
+      
+        </div>
+      </div>
+      <div class="container m-auto">
+        <div class="services-container m-auto">
+          
+          <!-- Repetir esta estructura 6 veces para las 6 secciones -->
+        
+          <div class="service grid md:grid-cols-2 mb-12 lg:mb-28 gap-4 even" id="gridServices">
+            
+            <!-- Contenedor de texto -->
+            <div class="service-text-container mb-8 lg:mb-0">
+              <div>
+                <h3 class="mb-2 flex">
+                  <!-- SVG ICON -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 118 116" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M63.4669 0.525906C81.8309 0.0559203 101.154 5.94649 111.681 21.0012C121.657 35.2698 116.715 53.7493 112.493 70.6402C108.426 86.909 103.906 104.776 88.8793 112.22C73.7176 119.731 56.4911 112.915 41.0293 106.042C24.7027 98.7859 6.55987 90.7469 1.81293 73.5225C-3.10274 55.6858 6.31323 37.527 18.2515 23.3924C29.7173 9.81716 45.7033 0.980524 63.4669 0.525906Z" fill="#FF7A59"/>
+                  </svg>
+                  Marketing Hub
+                </h3>
+              </div>
+      
+              <div>
+                <ul class="grid grid-cols-2 gap-2">
+                  <li>Onboarding & Setup</li>
+                  <li>Workflows</li>
+                  <li>Templates</li>
+                  <li>Dashboard Setup</li>
+                  <li>Forms & CTAs</li>
+                  <li>Email Marketing</li>
+                  <li>Migrations</li>
+                  <li>Campaigns</li>
+                </ul>
+              </div>
+      
+              <!-- Botón Get Started -->
+              <a href="#" class="mt-8 btn-get-started">Get Started</a>
+            </div>
+            
+            <!-- Contenedor de imagen -->
+            <div class="services-image">
+              <img src="./service1.jpg" alt="Placeholder Image for service {{ i }}" style="max-width: 100%; height: auto;">
+            </div>
+      
+          </div>
+    
+        </div>
+      </div>
+      <div class="container m-auto">
+        <div class="services-container m-auto">
+          
+          <!-- Repetir esta estructura 6 veces para las 6 secciones -->
+          
+          <div class="service grid md:grid-cols-2 mb-12 lg:mb-28 gap-4 odd" id="gridServices">
+            
+            <!-- Contenedor de texto -->
+            <div class="service-text-container mb-8 lg:mb-0">
+              <div>
+                <h3 class="mb-2 flex">
+                  <!-- SVG ICON -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 118 116" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M63.4669 0.525906C81.8309 0.0559203 101.154 5.94649 111.681 21.0012C121.657 35.2698 116.715 53.7493 112.493 70.6402C108.426 86.909 103.906 104.776 88.8793 112.22C73.7176 119.731 56.4911 112.915 41.0293 106.042C24.7027 98.7859 6.55987 90.7469 1.81293 73.5225C-3.10274 55.6858 6.31323 37.527 18.2515 23.3924C29.7173 9.81716 45.7033 0.980524 63.4669 0.525906Z" fill="#FF7A59"/>
+                  </svg>
+                  Sales HUB
+                </h3>
+              </div>
+      
+              <div>
+                <ul class="grid grid-cols-2 gap-2">
+                  <li>Onboarding & Setup</li>
+                  <li>Sales Pipelines</li>
+                  <li>Sequences</li>
+                  <li>Dashboard Setup</li>
+                  <li>Deals Stage Setup</li>
+                  <li>Custom Fields</li>
+                  <li>Playbooks</li>
+                  <li>Analytics & Reports</li>
+                </ul>
+              </div>
+      
+              <!-- Botón Get Started -->
+              <a href="#" class="mt-8 btn-get-started">Get Started</a>
+            </div>
+            
+            <!-- Contenedor de imagen -->
+            <div class="services-image">
+              <img src="./service1.jpg" alt="Placeholder Image for service {{ i }}" style="max-width: 100%; height: auto;">
+            </div>
+      
+          </div>
+        
+        </div>
+      </div>
+      <div class="container m-auto">
+        <div class="services-container m-auto">
+          
+          <!-- Repetir esta estructura 6 veces para las 6 secciones -->
+  
+          <div class="service grid md:grid-cols-2 mb-12 lg:mb-28 gap-4 even" id="gridServices">
+            
+            <!-- Contenedor de texto -->
+            <div class="service-text-container mb-8 lg:mb-0">
+              <div>
+                <h3 class="mb-2 flex">
+                  <!-- SVG ICON -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 118 116" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M63.4669 0.525906C81.8309 0.0559203 101.154 5.94649 111.681 21.0012C121.657 35.2698 116.715 53.7493 112.493 70.6402C108.426 86.909 103.906 104.776 88.8793 112.22C73.7176 119.731 56.4911 112.915 41.0293 106.042C24.7027 98.7859 6.55987 90.7469 1.81293 73.5225C-3.10274 55.6858 6.31323 37.527 18.2515 23.3924C29.7173 9.81716 45.7033 0.980524 63.4669 0.525906Z" fill="#FF7A59"/>
+                  </svg>
+                  Service HUB
+                </h3>
+              </div>
+              <div>
+                <ul class="grid grid-cols-2 gap-2">
+                  <li>Onboarding & Setup</li>
+                  <li>Services Pipelines</li>
+                  <li>SLAs</li>
+                  <li>Dashboard Setup</li>
+                  <li>Inbox Setup</li>
+                  <li>Training</li>
+                  <li>Feedback Surveys</li>
+                  <li>Analytics Report</li>
+                </ul>
+              </div>
+              <!-- Botón Get Started -->
+              <a href="#" class="mt-8 btn-get-started">Get Started</a>
+            </div>
+            <!-- Contenedor de imagen -->
+            <div class="services-image">
+              <img src="./service1.jpg" alt="Placeholder Image for service {{ i }}" style="max-width: 100%; height: auto;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container m-auto">
+        <div class="services-container m-auto">
+          
+          <!-- Repetir esta estructura 6 veces para las 6 secciones -->
+         
+          <div class="service grid md:grid-cols-2 mb-12 lg:mb-28 gap-4 odd" id="gridServices">
+            
+            <!-- Contenedor de texto -->
+            <div class="service-text-container mb-8 lg:mb-0">
+              <div>
+                <h3 class="mb-2 flex">
+                  <!-- SVG ICON -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 118 116" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M63.4669 0.525906C81.8309 0.0559203 101.154 5.94649 111.681 21.0012C121.657 35.2698 116.715 53.7493 112.493 70.6402C108.426 86.909 103.906 104.776 88.8793 112.22C73.7176 119.731 56.4911 112.915 41.0293 106.042C24.7027 98.7859 6.55987 90.7469 1.81293 73.5225C-3.10274 55.6858 6.31323 37.527 18.2515 23.3924C29.7173 9.81716 45.7033 0.980524 63.4669 0.525906Z" fill="#FF7A59"/>
+                  </svg>
+                  CMS Hub
+                </h3>
+              </div>
+              <div>
+                <ul class="grid grid-cols-2 gap-2">
+                  <li>Onboarding & Setup</li>
+                  <li>Design System Creation</li>
+                  <li>Landing Pages</li>
+                  <li>HUBL & HTML</li>
+                  <li>HubSpot COS</li>
+                  <li>Performance Optimization</li>
+                  <li>Conversion Rate Optimization</li>
+                  <li>Prototyping</li>
+                </ul>
+              </div>
+              <!-- Botón Get Started -->
+              <a href="#" class="mt-8 btn-get-started">Get Started</a>
+            </div>      
+            <!-- Contenedor de imagen -->
+            <div class="services-image">
+              <img src="./service1.jpg" alt="Placeholder Image for service {{ i }}" style="max-width: 100%; height: auto;">
+            </div>
+      
+          </div>
+     
+        </div>
+      </div>
+      <div class="container m-auto">
+        <div class="services-container m-auto">
+          
+          <!-- Repetir esta estructura 6 veces para las 6 secciones -->
+        
+          <div class="service grid md:grid-cols-2 mb-12 lg:mb-28 gap-4 even" id="gridServices">
+            
+            <!-- Contenedor de texto -->
+            <div class="service-text-container mb-8 lg:mb-0">
+              <div>
+                <h3 class="mb-2 flex">
+                  <!-- SVG ICON -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 118 116" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M63.4669 0.525906C81.8309 0.0559203 101.154 5.94649 111.681 21.0012C121.657 35.2698 116.715 53.7493 112.493 70.6402C108.426 86.909 103.906 104.776 88.8793 112.22C73.7176 119.731 56.4911 112.915 41.0293 106.042C24.7027 98.7859 6.55987 90.7469 1.81293 73.5225C-3.10274 55.6858 6.31323 37.527 18.2515 23.3924C29.7173 9.81716 45.7033 0.980524 63.4669 0.525906Z" fill="#FF7A59"/>
+                  </svg>
+                  Operations Hub
+                </h3>
+              </div>
+      
+              <div>
+                <ul class="grid grid-cols-2 gap-2">
+                  <li>Onboarding & Setup</li>
+                  <li>Data Sync</li>
+                  <li>Data Quality Automation</li>
+                  <li>Calculated Metrics</li>
+                  <li>Webhooks</li>
+                  <li>Programmable Automation</li>
+                  <li>API integrations</li>
+                  <li>Datasets</li>
+                </ul>
+              </div>
+      
+              <!-- Botón Get Started -->
+              <a href="#" class="mt-8 btn-get-started">Get Started</a>
+            </div>
+            
+            <!-- Contenedor de imagen -->
+            <div class="services-image">
+              <img src="./service1.jpg" alt="Placeholder Image for service {{ i }}" style="max-width: 100%; height: auto;">
+            </div>
+      
+          </div>
+     
+        </div>
+      </div>
+      
+      
+      
+      
+
+      <div id="fulfi" class="container m-auto my-12">
+  
+        <p class="extension-desc text-center">
+          An extension of your team
+        </p>
+        <h3 class="extension-title text-center">
+          Connected. Integrated.
+        </h3>
+        
+        <div class="connections-container grid md:grid-cols-2 my-10 gap-10 lg:gap-28" id="grid-extension">
+          
+          <div class="slack-col flex flex-col justify-between items-end">
+            <div class="text-col lg:grid lg:grid-cols-3 gap-10 items-center mb-4 px-2 lg:px-0 lg:mb-10">
+              <img id="slack-logo" src="./slack.svg" alt="Slack Logo" class="w-1/2 lg:w-full mb-2 lg:mb-0" />
+              <p class="lg:col-span-2">
+                Fast communication with our team in real-time during your business hours via Slack Connect.
+              </p>
+            </div>
+            <div class="connections-image">
+              <img src="./fulfi1-1.jpg" alt="Slack chat screenshot" />
+            </div>
+          </div>
+          <div class="slack-col flex flex-col justify-between items-end">
+            <div class="text-col lg:grid lg:grid-cols-3 gap-10 items-center mb-4 px-2 lg:px-0 lg:mb-10">
+              <img id="slack-logo" src="./fulfi.jpg" alt="Slack Logo" class="w-1/2 lg:w-full mb-2 lg:mb-0" />
+              <p class="lg:col-span-2">
+                Organize your projects and the tasks you outsource in our Fulfillment Center.
+              </p>
+            </div>
+            <div class="connections-image">
+              <img src="./fulfi2.jpg" alt="Slack chat screenshot" />
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      
+      <div class="container m-auto good-fit p-6 lg:p-12">
+        <h2 class="text-center">
+            Are we a good fit?
+        </h2>
+        <p class="text-center">
+            Let's talk about who is a perfect match
+        </p>
+        
+        <div class="fit-list">
+          <ul class="grid md:grid-cols-2 gap-10 mt-12">
+            <li class="flex gap-2 items-start">
+              <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                  <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="text">
+                <h3 class=" mb-4">Your working hours are 9 to 5 EST</h3>
+                <p>
+                    Even though we have clients all around the globe, we prefer clients who share the same timezone.
+                </p>
+              </div>
+            </li>
+            
+            <li class="flex gap-2 items-start">
+              <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                  <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="text">
+                <h3 class=" mb-4">Your working hours are 9 to 5 EST</h3>
+                <p>
+                    Similar to the previous answer, since most of our clients are from North America, we have a ton of experience in these 2 particular markets.
+                </p>
+              </div>
+            </li>
+            <li class="flex gap-2 items-start">
+                <div class="svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="white"/>
+                  </svg>
+                </div>
+                <div class="text">
+                    <h3 class=" mb-4">Your working hours are 9 to 5 EST</h3>
+                  <p>
+                    We have worked with all kinds of companies (Law firms, Startups, Home Care Agencies...) but probably HubSpot agencies are the best fit.
+                  </p>
+                </div>
+              </li>
+              <li class="flex gap-2 items-start">
+                <div class="svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="white"/>
+                  </svg>
+                </div>
+                <div class="text">
+                    <h3 class=" mb-4">Your working hours are 9 to 5 EST</h3>
+                  <p>
+                    I know, sometimes it happens. But we believe that if everything needs to be done overnight, it might go wrong, and it will go wrong.
+                  </p>
+                </div>
+              </li>
+              <li class="flex gap-2 items-start">
+                <div class="svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="white"/>
+                  </svg>
+                </div>
+                <div class="text">
+                    <h3 class=" mb-4">Your working hours are 9 to 5 EST</h3>
+                  <p>
+                    The key to scaling is putting a system together. We love companies that are organized and have the same mindset.
+                  </p>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="faqs" class="container m-auto grid md:grid-cols-2 my-12">
+  
+        <div class="faqs">
+          <h2>
+            FAQs
+          </h2>
+          <div class="faq-list">
+            <h3 class="mt-6 mb-3">
+                Can i get a refund?
+            </h3>
+            <p>
+                Yup, we offer a 14-days refund policy, no questions asked.
+            </p>
+            <h3 class="mt-6 mb-3">
+                What industries do you serve?
+            </h3>
+            <p>
+                We are eager to work with any in need of support! However, we have deep experience with general business services, home care agencies, e-commerce, law firms, home buyers and technology software.
+            </p>
+            <h3 class="mt-6 mb-3">
+                What languages do you support?
+            </h3>
+            <p>
+                Our crew speaks English and Spanish however we have done tons of jobs in other languages like dutch, french, german, chinese, arabic and hebrew.
+            </p>
+            <h3 class="mt-6 mb-3">
+                What are your working hours?
+            </h3>
+            <p>
+                We work 9 to 5 EST (Monday to Friday)
+            </p>
+            <!-- Add more FAQ items as needed -->
+          </div>
+        </div>
+        
+        <div class="get-started p-8 m-auto mt-12">
+          <h3>
+            Get Started 
+          </h3>
+          <p>
+            Book a call and find out if we are a good fit
+          </p>
+          <div class="started-list mt-6 mb-10">
+            <ul>
+              <li class="flex items-center gap-3 my-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30" fill="none">
+                  <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="#FFFFFF"/>
+                </svg>
+                Account Manager
+              </li>
+              <li class="flex items-center gap-3 my-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30" fill="none">
+                  <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="#FFFFFF"/>
+                </svg>
+                Dedicated Slack Channel
+              </li>
+              <li class="flex items-center gap-3 my-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30" fill="none">
+                  <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="#FFFFFF"/>
+                </svg>
+                Dedicated HubSpot Specialist
+              </li>
+              <li class="flex items-center gap-3 my-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30" fill="none">
+                  <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="#FFFFFF"/>
+                </svg>
+                Free Technical Consultation
+              </li>
+              <li class="flex items-center gap-3 my-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30" fill="none">
+                  <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="#FFFFFF"/>
+                </svg>
+                Mon-Fri 9 to 5
+              </li>
+              <li class="flex items-center gap-3 my-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30" fill="none">
+                  <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="#FFFFFF"/>
+                </svg>
+                Co-onboarding services
+              </li>
+              <li class="flex items-center gap-3 my-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30" fill="none">
+                  <path d="M15 0C6.8 0 0 6.8 0 15C0 23.2 6.7 30 15 30C23.2 30 30 23.3 30 15C30 6.7 23.2 0 15 0Z" fill="#FF5C35"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4998 9.30078L12.5998 18.2008L8.4998 14.1008C7.9998 13.6008 7.1998 13.6008 6.7998 14.1008C6.2998 14.6008 6.2998 15.4008 6.7998 15.8008L11.6998 20.7008C11.8998 20.9008 12.2998 21.1008 12.5998 21.1008C12.8998 21.1008 13.1998 21.0008 13.4998 20.7008L23.1998 11.0008C23.6998 10.5008 23.6998 9.70078 23.1998 9.30078C22.6998 8.80078 21.8998 8.80078 21.4998 9.30078Z" fill="#FFFFFF"/>
+                </svg>
+                NDA Friendly
+              </li>
+              <a href="#started" class="m-auto mt-8 lg:mt-0">Book a call</a>
+              <!-- Add more steps as needed -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container m-auto grid lg:grid-cols-3 gap-4 my-12">
+  
+        <div class="testimonial p-5 flex flex-col justify-between">
+          <div class="person-info grid grid-cols-2 items-center">
+            <div class="person-text">
+              <!-- ROLE -->
+              <p class="role">
+                VP of Marketing
+              </p>
+              <!-- name -->
+              <p class="name">
+                Luca De Fanis
+              </p>
+              <img src="https://go.happyagencies.com/hubfs/stars.svg" alt="stars" style="height:19px;" />
+            </div>
+            <div class="person-img">
+              <img src="./c61ac6fb-testimonial-luca_102w02y02w02s000002028.png" alt="Jane Doe" style="max-width: 100%; height: auto;" class="ml-auto">
+            </div>
+          </div>
+          
+          <!-- Comment -->
+          <div class="mt-4">
+            <p class="comment">
+                Happy Agencies is hands down the best marketing agency I've worked with. They were able to create very successful marketing processes and strategies for us. Great for help with PPC, HubSpot, graphic designing and SEO.
+            </p>
+          </div>
+      
+          <div class="logo mt-6">
+            <img src="./cost.svg" alt="Company X Logo" class="cost-certified-logo" style="max-width: 100%; height: auto;">
+          </div>
+        </div>
+      
+        <div class="testimonial p-5 flex flex-col justify-between">
+          <div class="person-info grid grid-cols-2 items-center">
+            <div class="person-text">
+              <!-- ROLE -->
+              <p class="role">
+                Marketing Director
+              </p>
+              <!-- name -->
+              <p class="name">
+                Danna K.
+              </p>
+              <img src="https://go.happyagencies.com/hubfs/stars.svg" alt="stars" style="height:19px;" />
+            </div>
+            <div class="person-img">
+              <img src="./danna.png" alt="John Smith" style="max-width: 100%; height: auto;" class="ml-auto">
+            </div>
+          </div>
+          
+          <!-- Comment -->
+          <div class="mt-4">
+            <p class="comment">
+                We migrated to HubSpot and the wonderful team at Happy Agencies was with us the whole time and really went above and beyond. Could not have don't this migration without them. Very happy indeed, all works perfectly.
+            </p>
+          </div>
+      
+          <div class="logo mt-6">
+            <img src="./danna2.png" alt="Company Y Logo" style="max-width: 100%; height: auto;">
+          </div>
+        </div>
+      
+        <div class="testimonial p-5 flex flex-col justify-between">
+          <div class="person-info grid grid-cols-2 items-center">
+            <div class="person-text">
+              <!-- ROLE -->
+              <p class="role">
+                Founder
+              </p>
+              <!-- name -->
+              <p class="name">
+                Josh Harcus
+              </p>
+              <img src="https://go.happyagencies.com/hubfs/stars.svg" alt="stars" style="height:19px;" />
+            </div>
+            <div class="person-img">
+              <img src="./josh2.png" alt="Alice Johnson" style="max-width: 100%; height: auto;" class="ml-auto">
+            </div>
+          </div>
+          
+          <!-- Comment -->
+          <div class="mt-4">
+            <p class="comment">
+                We are so grateful that we found Happy Agencies. They have become a fantastic partners. They have the ability to take any project that we have. We can throw it over to them and they can deliver it back in a very quick and efficient fashion.
+            </p>
+          </div>
+      
+          <div class="logo mt-6">
+            <img src="./josh.png" alt="Company Z Logo" style="max-width: 100%; height: auto;">
+          </div>
+        </div>
+      
+      </div>
+      
+      <div id="resources" class="footer-bg py-12">
+  
+        <div class="container m-auto lg:flex lg:items-end lg:gap-28">
+          
+          <div class="footer-cont">
+            <div class="price">
+              <p>
+                $30 - $40/hr
+              </p>
+            </div>
+            
+            <h2 class="text-4xl my-2">
+                Do you need dedicated resources?
+            </h2>
+              
+            <p>
+                Full-time commitment and pre-vetted managed talent for you.
+            </p>
+            
+            <div class="items mt-6">
+              <ul class="flex flex-col md:flex-row gap-2 lg:gap-8">
+                <li>
+                  <p class="flex gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 118 116" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M63.4669 0.525906C81.8309 0.0559203 101.154 5.94649 111.681 21.0012C121.657 35.2698 116.715 53.7493 112.493 70.6402C108.426 86.909 103.906 104.776 88.8793 112.22C73.7176 119.731 56.4911 112.915 41.0293 106.042C24.7027 98.7859 6.55987 90.7469 1.81293 73.5225C-3.10274 55.6858 6.31323 37.527 18.2515 23.3924C29.7173 9.81716 45.7033 0.980524 63.4669 0.525906Z" fill="#FF7A59"/>
+                    </svg>
+                    Full-time
+                  </p>
+                </li>
+                <li>
+                  <p class="flex gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 118 116" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M63.4669 0.525906C81.8309 0.0559203 101.154 5.94649 111.681 21.0012C121.657 35.2698 116.715 53.7493 112.493 70.6402C108.426 86.909 103.906 104.776 88.8793 112.22C73.7176 119.731 56.4911 112.915 41.0293 106.042C24.7027 98.7859 6.55987 90.7469 1.81293 73.5225C-3.10274 55.6858 6.31323 37.527 18.2515 23.3924C29.7173 9.81716 45.7033 0.980524 63.4669 0.525906Z" fill="#FF7A59"/>
+                    </svg>
+                    Slack Channel
+                  </p>
+                </li>
+                <li>
+                    <p class="flex gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 118 116" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M63.4669 0.525906C81.8309 0.0559203 101.154 5.94649 111.681 21.0012C121.657 35.2698 116.715 53.7493 112.493 70.6402C108.426 86.909 103.906 104.776 88.8793 112.22C73.7176 119.731 56.4911 112.915 41.0293 106.042C24.7027 98.7859 6.55987 90.7469 1.81293 73.5225C-3.10274 55.6858 6.31323 37.527 18.2515 23.3924C29.7173 9.81716 45.7033 0.980524 63.4669 0.525906Z" fill="#FF7A59"/>
+                      </svg>
+                      EST hours
+                    </p>
+                  </li>
+                <!-- Add more resources as needed -->
+              </ul>
+            </div>
+
+      
+        </div>
+      </div>
+      </div>
+      <footer class="footer">
+        <img class="footer-image" src="./c5683874-logo-happy.svg" alt="">
+        <p class="footer-text">These services are provided <span class="footer-span">by Happy Agenices, HubSpot solution partner</span></p>
+      </footer>
+     
+      
+  </body>
+</html>
